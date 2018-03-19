@@ -13,4 +13,6 @@ SM2 <- as.numeric(power$Sub_metering_2)
 SM3 <- as.numeric(power$Sub_metering_3)
 
 ## Plot 1: Global Active Power
+png("plot1.png", width=480, height=480)
 hist(GAP, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)")
+dev.off()
