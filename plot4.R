@@ -1,5 +1,4 @@
 ## plot 4
-## plot 3
 plot(datetime, SM1, type="l", ylab="Energy Submetering", xlab="")
 lines(datetime, SM2, type="l", col="red")
 lines(datetime, SM3, type="l", col="blue")
