@@ -13,7 +13,7 @@ SM2 <- as.numeric(power$Sub_metering_2)
 SM3 <- as.numeric(power$Sub_metering_3)
 
 ## plot 3
-png("plot1.png", width=480, height=480)
+png("plot3.png", width=480, height=480)
 
 plot(datetime, SM1, type="l", ylab="Energy Submetering", xlab="")
 lines(datetime, SM2, type="l", col="red")
